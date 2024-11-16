@@ -17,7 +17,7 @@ def create_image_from_coordinates(filename, img_size):
 img_size = (500, 500)  # Adjust based on your expected image size
 
 # Create the image from the coordinates file
-img_from_coordinates = create_image_from_coordinates('medial_axis_coordinates_rect.txt', img_size)
+img_from_coordinates = create_image_from_coordinates('medial_axis_coordinates_curve_bhaiya_fig2.txt', img_size)
 
 # Display the resulting image
 cv2.imshow("Image from Coordinates", img_from_coordinates)

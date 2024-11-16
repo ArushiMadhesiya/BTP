@@ -54,5 +54,5 @@ def process_image(image_path):
     plt.show()
 
 # Example: Load an image containing a shape (e.g., ellipse, rectangle)
-image_path = 'rect1.png'  # Replace with your image path
+image_path = 'india.png'  # Replace with your image path
 process_image(image_path)

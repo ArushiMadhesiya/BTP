@@ -53,7 +53,7 @@ def compute_and_display_medial_axis(binary_image):
     medial_axis_coords = list(zip(x_coords, y_coords))
 
     # Save coordinates to a file
-    with open("medial_axis_coordinates_rect.txt", "w") as f:
+    with open("medial_axis_coordinates_L.txt", "w") as f:
         for x, y in medial_axis_coords:
             f.write(f"{x},{y}\n")
 
